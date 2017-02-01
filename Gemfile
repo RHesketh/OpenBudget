@@ -42,6 +42,7 @@ end
 
 group :test do
   gem 'minitest-spec-rails'
+  gem 'mocha'
 end
 
 group :development do
