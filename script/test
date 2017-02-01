@@ -1,0 +1,9 @@
+#!/bin/sh
+# https://github.com/github/scripts-to-rule-them-all
+
+# Runs the tests for the application.
+# Can run a single test with:
+# `script/tests test/file.rb`
+# or a single line with
+# `script/tests test/file.rb:1`
+bin/rails test $1

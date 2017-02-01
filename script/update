@@ -1,0 +1,9 @@
+#!/bin/sh
+# https://github.com/github/scripts-to-rule-them-all
+
+# Updates the project to the latest state.
+# Should be run after a `git pull` or when
+# the project hasn't been touched in a while
+script/bootstrap
+
+rake db:migrate

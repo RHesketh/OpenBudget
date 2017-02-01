@@ -1,0 +1,6 @@
+#!/bin/sh
+# https://github.com/github/scripts-to-rule-them-all
+
+# Starts the server running
+#
+puma

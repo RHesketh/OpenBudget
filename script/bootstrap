@@ -1,0 +1,6 @@
+#!/bin/sh
+# https://github.com/github/scripts-to-rule-them-all
+
+# Installs the required dependencies for this application
+# Also includes databases etc
+bundle install
