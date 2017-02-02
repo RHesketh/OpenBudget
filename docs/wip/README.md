@@ -2,7 +2,7 @@
 
 An open-source budgeting tool to help you manage virtual pots of money.
 
-This repository holds the code that is running the live demo server at [openbudget.info](http://openbudget.info)
+This repository holds the code that is running on the live demo server at [openbudget.info](http://openbudget.info)
 
 ## Developer Setup
 
@@ -18,15 +18,14 @@ This repository holds the code that is running the live demo server at [openbudg
 
 (TODO: Add deployment instructions, Ansible templates when ready.)
 
-**Tests**
+## Tests
 
 The project is tested using Minitest::Spec. You can run the tests using
 
 `script/test`
 
-**Contributing**
+## Contributing
 
-**Prerequisites:** Bundler, RVM *or* rbenv *or* Ruby 2.3.3
 When you download the repo for the first time you should run
 `script/setup`
 
