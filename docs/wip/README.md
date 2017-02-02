@@ -14,9 +14,11 @@ This repository holds the code that is running on the live demo server at [openb
 ## Usage
 *How to sign up, etc* 
 
-## Deployment Instructions
+## Deployment
 
-(TODO: Add deployment instructions, Ansible templates when ready.)
+To deploy your own copy of this code to Heroku, use the Deploy to Heroku button
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## Tests
 
