@@ -1,0 +1,6 @@
+{
+  "name": "OpenBudget",
+  "description": "An open-source budgeting tool to help you manage virtual pots of money.",
+  "repository": "https://github.com/rhesketh/OpenBudget",
+  "keywords": ["ruby", "rails"]
+}
