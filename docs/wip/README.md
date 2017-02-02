@@ -11,8 +11,8 @@ This repository holds the code that is running on the live demo server at [openb
 1. Run the setup script: `script/setup`
 1. Start the server: `script/server`
 
-## Commands
-- `test blah` - Lorem ipsum blah blah.
+## Usage
+*How to sign up, etc* 
 
 ## Deployment Instructions
 
