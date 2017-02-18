@@ -55,4 +55,4 @@ To work on your code submission, follow [GitHub Flow](https://guides.github.com/
 
 ## Contact
 
-This project was designed and developed by [Rob Hesketh](http://robhesketh.com). You can reach me via Twitter at [http://twitter.com/robahesketh](@robahesketh) or email me at [mailto:contact@robhesketh.com](contact@robhesketh.com).
+This project was designed and developed by [Rob Hesketh](http://robhesketh.com). You can reach me via Twitter at [@robahesketh](http://twitter.com/robahesketh) or email me at [contact@robhesketh.com](mailto:contact@robhesketh.com).
