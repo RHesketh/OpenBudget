@@ -13,7 +13,7 @@ This repository holds the code that is running on the live demo server at [openb
 
 1. Run the setup script: `script/setup`
 1. Start the server: `script/server`
-1. Load the project (default URL is [http://localhost:3000](http://localhost:3000))
+1. Load the project in a web browser (default URL is [http://localhost:3000](http://localhost:3000))
 
 The setup script will install Bundler if you don't have it, then use Bundler to install the project's gems. Finally, it will set up local development databases and populate them with seed data.
 
@@ -30,6 +30,10 @@ To deploy your own copy of this code to Heroku, use the Deploy to Heroku button
 The project is tested using Minitest::Spec. You can run the tests using
 
 `script/test`
+
+### Continuous Integration
+
+The project is designed to be deployed using [Travis CI](http://travisci.org). There are Gemfiles designed for CI usage in the test/ci/gemfiles folder. If changes are made to the main Gemfile, these should also be added to the CI gemfiles as well.
 
 ## Contributing
 
