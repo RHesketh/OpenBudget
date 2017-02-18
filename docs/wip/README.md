@@ -1,30 +1,41 @@
 # OpenBudget
 
-An open-source budgeting tool to help you manage virtual pots of money.
+An open-source budgeting tool to help you manage virtual pots of money. It is written in Ruby, using Ruby on Rails.
 
-This repository holds the code that is running on the live demo server at [openbudget.info](http://openbudget.info)
+This repository holds the code that is running on the live demo server at [openbudget.info](http://openbudget.info).
 
-## Developer Setup
+## Setup
 
-1. Install Ruby 2.3.3 (It is suggested to use a Ruby version manager such as [rbenv](https://github.com/rbenv/rbenv#installation) and then to [install Ruby 2.3.3](https://github.com/rbenv/rbenv#installing-ruby-versions)).
-1. Install Bundler to manager dependencies: `gem install bundler`
+[![Build Status](https://travis-ci.org/RHesketh/OpenBudget.svg?branch=develop)](https://travis-ci.org/RHesketh/OpenBudget)
+
+### Dependencies
+1. Ruby 2.3.3 suggested, Ruby 2.2.2 or later required
+
+### How to use
+
 1. Run the setup script: `script/setup`
 1. Start the server: `script/server`
+1. Load the project in a web browser (default URL is [http://localhost:3000](http://localhost:3000))
 
-## Usage
-*How to sign up, etc* 
+The setup script will install Bundler if you don't have it, then use Bundler to install the project's gems. Finally, it will set up local development databases and populate them with seed data.
 
 ## Deployment
 
-To deploy your own copy of this code to Heroku, use the Deploy to Heroku button
+To deploy your own copy of this code to Heroku, use the Deploy to Heroku button below
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+<!-- TODO: Add Puppet/Ansible/etc config here, not just Heroku -->
 
 ## Tests
 
 The project is tested using Minitest::Spec. You can run the tests using
 
 `script/test`
+
+### Continuous Integration
+
+The project is tested against all Ruby versions from 2.2.2 to 2.4.0 using [Travis CI](http://travisci.org). For the full list of Ruby environments tested against, see the [.travis.yml](.travis.yml) configuration file.
 
 ## Contributing
 
@@ -42,6 +53,11 @@ To work on your code submission, follow [GitHub Flow](https://guides.github.com/
 1. Discuss via Pull Request
 1. Pull Request gets approved or denied by core team member
 
+
+#### Translations
+
+A great way to help the project is by translating it into a new language for all users to use. Localisation files are found in [config/locales](config/locales/). If you'd like to add a new language or make a change to the existing files, please feel free to submit a pull request as described above.
+
 ## Contact
 
-This project was designed and developed by [Rob Hesketh](http://robhesketh.com). You can reach me via Twitter at [http://twitter.com/robahesketh](@robahesketh) or email me at [mailto:contact@robhesketh.com](contact@robhesketh.com).
+This project was developed by [Rob Hesketh](http://robhesketh.com). You can find me on Twitter as [@robahesketh](http://twitter.com/robahesketh) or email me at [contact@robhesketh.com](mailto:contact@robhesketh.com).
