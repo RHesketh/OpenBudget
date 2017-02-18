@@ -1,6 +1,6 @@
 # OpenBudget
 
-An open-source budgeting tool to help you manage virtual pots of money.
+An open-source budgeting tool to help you manage virtual pots of money. It is written in Ruby, using Ruby on Rails.
 
 This repository holds the code that is running on the live demo server at [openbudget.info](http://openbudget.info).
 
@@ -52,6 +52,11 @@ To work on your code submission, follow [GitHub Flow](https://guides.github.com/
 1. Submit Pull Request
 1. Discuss via Pull Request
 1. Pull Request gets approved or denied by core team member
+
+
+#### Translations
+
+A great way to help the project is by translating it into a new language for all users to use. Localisation files are found in [config/locales](config/locales/). If you'd like to add a new language or make a change to the existing files, please feel free to submit a pull request as described above.
 
 ## Contact
 
