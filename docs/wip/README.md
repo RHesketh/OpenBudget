@@ -7,6 +7,7 @@ This repository holds the code that is running on the live demo server at [openb
 ## Setup
 
 [![Build Status](https://travis-ci.org/RHesketh/OpenBudget.svg?branch=develop)](https://travis-ci.org/RHesketh/OpenBudget)
+[![git.legal](https://git.legal/projects/3591/badge.svg?key=c7f9741cc5904807fef1 "Number of libraries approved")](https://git.legal/projects/3591)
 
 ### Dependencies
 1. Ruby 2.3.3 suggested, Ruby 2.2.2 or later required
