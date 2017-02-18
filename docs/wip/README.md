@@ -1,5 +1,7 @@
 # OpenBudget
 
+ [![Build Status](https://travis-ci.org/RHesketh/OpenBudget.svg?branch=master)](https://travis-ci.org/RHesketh/OpenBudget)
+
 An open-source budgeting tool to help you manage virtual pots of money.
 
 This repository holds the code that is running on the live demo server at [openbudget.info](http://openbudget.info)
@@ -33,7 +35,7 @@ The project is tested using Minitest::Spec. You can run the tests using
 
 ### Continuous Integration
 
-The project is tested against Ruby 2.2.2, Ruby 2.3.3 and JRuby x.x using [Travis CI](http://travisci.org).
+The project is tested against all Ruby versions from 2.2.2 to 2.4.0 using [Travis CI](http://travisci.org). For the full list of Ruby environments tested against, see the [.travis.yml](.travis.yml) configuration file.
 
 ## Contributing
 
