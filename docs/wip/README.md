@@ -1,6 +1,6 @@
 # OpenBudget
 
- [![Build Status](https://travis-ci.org/RHesketh/OpenBudget.svg?branch=master)](https://travis-ci.org/RHesketh/OpenBudget)
+ [![Build Status](https://travis-ci.org/RHesketh/OpenBudget.svg?branch=develop)](https://travis-ci.org/RHesketh/OpenBudget)
 
 An open-source budgeting tool to help you manage virtual pots of money.
 
