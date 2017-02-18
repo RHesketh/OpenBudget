@@ -49,6 +49,7 @@ end
 group :test do
   gem 'minitest-spec-rails'
   gem 'mocha'
+  gem 'rake' # Required by Travis CI
 end
 
 group :development do
