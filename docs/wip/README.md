@@ -2,31 +2,37 @@
 
 An open-source budgeting tool to help you manage virtual pots of money.
 
-This repository holds the code that is running the live demo server at [openbudget.info](http://openbudget.info)
+This repository holds the code that is running on the live demo server at [openbudget.info](http://openbudget.info)
 
-## Developer Setup
+## Setup
 
-1. Install Ruby 2.3.3 (It is suggested to use a Ruby version manager such as [rbenv](https://github.com/rbenv/rbenv#installation) and then to [install Ruby 2.3.3](https://github.com/rbenv/rbenv#installing-ruby-versions)).
-1. Install Bundler to manager dependencies: `gem install bundler`
+### Dependencies
+1. Ruby 2.3.3
+
+### How to use
+
 1. Run the setup script: `script/setup`
 1. Start the server: `script/server`
+2. Load the project (default URL is [http://localhost:3000](http://localhost:3000))
 
-## Commands
-- `test blah` - Lorem ipsum blah blah.
+The setup script will install Bundler if you don't have it, then use Bundler to install the project's gems. Finally, it will set up local development databases and populate them with seed data.
 
-## Deployment Instructions
+## Deployment
 
-(TODO: Add deployment instructions, Ansible templates when ready.)
+To deploy your own copy of this code to Heroku, use the Deploy to Heroku button
 
-**Tests**
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+<!-- TODO: Add Puppet/Ansible/etc config here, not just Heroku -->
+
+## Tests
 
 The project is tested using Minitest::Spec. You can run the tests using
 
 `script/test`
 
-**Contributing**
+## Contributing
 
-**Prerequisites:** Bundler, RVM *or* rbenv *or* Ruby 2.3.3
 When you download the repo for the first time you should run
 `script/setup`
 

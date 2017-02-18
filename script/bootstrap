@@ -3,4 +3,10 @@
 
 # Installs the required dependencies for this application
 # Also includes databases etc
+
+# Install Bundler if it's not already installed
+printf "Bundler already installed? "
+gem query -i -n bundler || gem install bundler
+
+# Install project gems
 bundle install
