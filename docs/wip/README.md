@@ -33,7 +33,7 @@ The project is tested using Minitest::Spec. You can run the tests using
 
 ### Continuous Integration
 
-The project is designed to be deployed using [Travis CI](http://travisci.org). There are Gemfiles designed for CI usage in the test/ci/gemfiles folder. If changes are made to the main Gemfile, these should also be added to the CI gemfiles as well.
+The project is tested against Ruby 2.2, Ruby 2.3.3 and JRuby x.x using [Travis CI](http://travisci.org).
 
 ## Contributing
 

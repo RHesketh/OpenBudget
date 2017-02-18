@@ -1,4 +1,4 @@
-ruby '2.3.3'
+ruby '2.3.3' unless ENV['TRAVIS']
 source 'https://rubygems.org'
 
 git_source(:github) do |repo_name|
