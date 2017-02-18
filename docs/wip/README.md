@@ -21,7 +21,7 @@ The setup script will install Bundler if you don't have it, then use Bundler to 
 
 ## Deployment
 
-To deploy your own copy of this code to Heroku, use the Deploy to Heroku button
+To deploy your own copy of this code to Heroku, use the Deploy to Heroku button below
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
