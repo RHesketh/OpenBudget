@@ -13,7 +13,7 @@ This repository holds the code that is running on the live demo server at [openb
 
 1. Run the setup script: `script/setup`
 1. Start the server: `script/server`
-2. Load the project (default URL is [http://localhost:3000](http://localhost:3000))
+1. Load the project (default URL is [http://localhost:3000](http://localhost:3000))
 
 The setup script will install Bundler if you don't have it, then use Bundler to install the project's gems. Finally, it will set up local development databases and populate them with seed data.
 
