@@ -7,7 +7,7 @@ This repository holds the code that is running on the live demo server at [openb
 ## Setup
 
 ### Dependencies
-1. Ruby 2.3.3
+1. Ruby 2.3.3 suggested, Ruby 2.2.2 or later required
 
 ### How to use
 
