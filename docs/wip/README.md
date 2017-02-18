@@ -1,12 +1,12 @@
 # OpenBudget
 
- [![Build Status](https://travis-ci.org/RHesketh/OpenBudget.svg?branch=develop)](https://travis-ci.org/RHesketh/OpenBudget)
-
 An open-source budgeting tool to help you manage virtual pots of money.
 
 This repository holds the code that is running on the live demo server at [openbudget.info](http://openbudget.info)
 
 ## Setup
+
+[![Build Status](https://travis-ci.org/RHesketh/OpenBudget.svg?branch=develop)](https://travis-ci.org/RHesketh/OpenBudget)
 
 ### Dependencies
 1. Ruby 2.3.3 suggested, Ruby 2.2.2 or later required
