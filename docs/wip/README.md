@@ -33,7 +33,7 @@ The project is tested using Minitest::Spec. You can run the tests using
 
 ### Continuous Integration
 
-The project is tested against Ruby 2.2, Ruby 2.3.3 and JRuby x.x using [Travis CI](http://travisci.org).
+The project is tested against Ruby 2.2.2, Ruby 2.3.3 and JRuby x.x using [Travis CI](http://travisci.org).
 
 ## Contributing
 
