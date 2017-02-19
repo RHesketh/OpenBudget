@@ -3,7 +3,7 @@ Feature: User can choose their language
   I want to use the site in a language I understand
   So that I can benefit from the site's functionality
 
-xScenario: User can see their current language at all times
+xScenario: User can see their current language at all times, even when not signed up
   When I go to the homepage
   Then I should see my current language
   And I should see a flag indicating my current language

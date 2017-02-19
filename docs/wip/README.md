@@ -1,6 +1,6 @@
 # OpenBudget
 
-An open-source budgeting tool to help you manage virtual pots of money. It is written in Ruby, using Ruby on Rails 5.
+A free, open-source budgeting tool to help you manage virtual pots of money. It is written in Ruby, using Ruby on Rails 5.
 
 This repository holds the code that is running on the demo server at [openbudget.info](http://openbudget.info).
 

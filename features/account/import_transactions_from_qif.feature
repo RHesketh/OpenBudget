@@ -1,4 +1,4 @@
-Feature: User imports data in QIF file format
+Feature: Import transactions from QIF
   As a user who is a customer of Monzo or similar
   I want import data in the .QIF file format
   So that I don't have to enter the same data twice

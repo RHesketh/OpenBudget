@@ -1,4 +1,4 @@
-Feature: User has a YNAB budget to import
+Feature: Import from YNAB
   As a user who also uses YNAB
   I want to import the data that YNAB exports
   So that I don't have to re-enter my information
