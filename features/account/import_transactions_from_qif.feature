@@ -1,7 +1,7 @@
 Feature: Import transactions from QIF
   As a user who is a customer of Monzo or similar
   I want import data in the .QIF file format
-  So that I don't have to enter the same data twice
+  So that I don't have to manually enter lots of transactions
 
 xScenario: User has an QIF file containing account transactions
   When I have a budget with an empty account
