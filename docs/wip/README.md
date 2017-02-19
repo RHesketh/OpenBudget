@@ -2,7 +2,7 @@
 
 A free, open-source budgeting tool to help you manage virtual pots of money. It is written in Ruby, using Ruby on Rails 5.
 
-You can see OpenBudget in action at [openbudget.info](http://openbudget.info). It's free to sign up, or you can use this code to deploy your own copy of OpenBudget if you prefer.
+You can see OpenBudget in action at [openbudget.info](http://openbudget.info). It's free to sign up, or you can use this code to deploy your own copy of OpenBudget somewhere else if you prefer.
 
 ## Setup
 
