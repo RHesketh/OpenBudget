@@ -6,4 +6,5 @@
 # `script/tests test/file.rb`
 # or a single line with
 # `script/tests test/file.rb:1`
+cucumber
 bin/rails test $1
