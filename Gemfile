@@ -50,6 +50,13 @@ group :test do
   gem 'minitest-spec-rails'
   gem 'mocha'
   gem 'rake' # Required by Travis CI
+
+  # Integration Testing
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner'
+end
+
+group :test do
 end
 
 group :development do

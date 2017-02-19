@@ -30,7 +30,7 @@ To deploy your own copy of this code to Heroku, use the Deploy to Heroku button 
 
 ## Tests
 
-The project is tested using Minitest::Spec. You can run the tests using
+The project is tested using Minitest::Spec and Cucumber. You can run the tests using
 
 `script/test`
 
